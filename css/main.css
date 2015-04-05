@@ -6,3 +6,8 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
+
+.masthead{
+  background-elements: url("../assets/subtle_white_mini_waves.png");
+  background-size: 75px auto;
+}
