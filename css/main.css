@@ -1,13 +1,64 @@
 html{
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
+  padding: 0em;
+  margin: 0em;
 }
 
 *, *::before, *::after{
   box-sizing: inherit;
 }
 
+body{
+  padding: 0em;
+  margin: 0em;
+}
 .masthead{
-  background-elements: url("../assets/subtle_white_mini_waves.png");
+  background-image: url("../img/subtle_white_mini_waves.png");
   background-size: 75px auto;
+  padding-bottom: 2em;
+}
+
+h1{
+  margin: 0em;
+  padding: .25em 0em .25em 0em;
+  text-align: center;
+  color:#512200;
+  font-size: 3rem;
+}
+
+nav{
+  background-color: rgba(81, 34, 0, 0.5);
+  padding: 0em;
+  bottom: 1em;
+  margin-top: -2.2em;
+}
+
+nav ul{
+  display: block;
+  list-style: none;
+  padding: 0em;
+  margin: 0em;
+  width:  100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+nav li:hover{
+  background-color: rgba(81, 34, 0, 0.75);
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  padding: .5em .75em .5em .75em;
+}
+
+.tort,.dung,.stag,.ant{
+  float: left;
+  width: calc(100% / 4);
+}
+
+li{
+  padding: .5em 0em .5em 0em;
 }
