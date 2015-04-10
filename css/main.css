@@ -113,6 +113,10 @@ figcaption{
   margin-right: 2em;
 }
 
+figcaption a{
+  text-decoration: none;
+  color: #fff;
+}
 
 footer{
   width: 100%;
